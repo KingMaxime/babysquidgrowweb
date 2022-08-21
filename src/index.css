@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		-webkit-user-select: none !important; /* Safari */
+		-ms-user-select: none !important; /* IE 10 and IE 11 */
+		user-select: none !important;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		margin: 0;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		background-color: #0f0e13;
+		background-image: radial-gradient(
+				at 0% 0%,
+				hsla(253, 16%, 7%, 1) 0,
+				transparent 50%
+			),
+			radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+			radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+	}
+
+	@font-face {
+		font-family: "Squids";
+		src: url("./assets/fonts/Squids/Squids.ttf");
+	}
+
+	@font-face {
+		font-family: "Qanelas";
+		src: url("./assets/fonts/Qanelas/Qanelas.woff");
+	}
+
+	.nav-item .active {
+		color: #5eead4 !important;
+	}
+}

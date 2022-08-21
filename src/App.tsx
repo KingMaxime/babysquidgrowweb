@@ -1,0 +1,35 @@
+import React, { useEffect, useState } from "react";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+// import Rollup from './components/Rollup';
+import ScrollToTop from "./components/ScrollTop";
+import Spinner from "./components/Spinner";
+import Home from "./pages/Home";
+import Stake from "./pages/Stake";
+import Team from "./pages/Team";
+
+function App() {
+	const [loading, setLoading] = useState(false);
+
+	useEffect(() => {
+		setLoading(true);
+		setTimeout(() => {
+			setLoading(false);
+		}, 2000);
+	}, []);
+	return loading ? (
+		<Spinner />
+	) : (
+		<BrowserRouter>
+			<ScrollToTop />
+			<Routes>
+				<Route path='/' element={<Home />} />
+				<Route path='stake' element={<Stake />} />
+				<Route path='team' element={<Team />} />
+				<Route path='*' element={<Navigate replace to='/' />} />
+			</Routes>
+			{/* <Rollup /> */}
+		</BrowserRouter>
+	);
+}
+
+export default App;
