@@ -87,7 +87,7 @@ function Header() {
 				<div className={`md:hidden nav-item ${open ? "" : "hidden"}`}>
 					{pathname === "/" ? (
 						<Link
-							to='/'
+							to='./'
 							className='block py-2 px-0 md:px-4 text-xl font-bold text-red-600 font-qanelas'>
 							Home
 						</Link>
