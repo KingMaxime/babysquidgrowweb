@@ -88,7 +88,7 @@ function Header() {
 					{pathname === "/" ? (
 						<Link
 							to='/'
-							className='block py-2 px-0 md:px-4 text-xl font-bold text-teal-300 font-qanelas'>
+							className='block py-2 px-0 md:px-4 text-xl font-bold text-red-600 font-qanelas'>
 							Home
 						</Link>
 					) : (
@@ -98,7 +98,7 @@ function Header() {
 							smooth={true}
 							offset={-100}
 							duration={100}
-							className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-pink-500 font-qanelas'>
+							className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-red-600 font-qanelas'>
 							Home
 						</Scroll>
 					)}
@@ -108,7 +108,7 @@ function Header() {
 						smooth={true}
 						offset={-100}
 						duration={100}
-						className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-pink-500 font-qanelas'>
+						className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-red-600 font-qanelas'>
 						Tokenomics
 					</Scroll>
 					<Scroll
@@ -117,14 +117,14 @@ function Header() {
 						smooth={true}
 						offset={-100}
 						duration={100}
-						className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-pink-500 font-qanelas'>
+						className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-red-600 font-qanelas'>
 						Team
 					</Scroll>
 					<a
-						href='https://poocoin.app/tokens/0x03077a5893ba855bfe517a6995f31f3a801066e6'
+						href='https://poocoin.app/tokens/0x434ef13d84e5b3f4c89dd6c0c846d5151232c67a'
 						target='_blank'
 						rel='noopener noreferrer'
-						className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-pink-500 font-qanelas'>
+						className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-red-600 font-qanelas'>
 						Chart
 					</a>
 					
