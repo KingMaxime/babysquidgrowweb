@@ -25,13 +25,7 @@ function Footer() {
 										Home
 									</Link>
 								</li>
-								<li>
-									<Link
-										to='/informations'
-										className='text-xl font-semibold hover:underline hover:text-white font-qanelas'>
-										Information
-									</Link>
-								</li>
+								
 							</ul>
 						</div>
 						<div>

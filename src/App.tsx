@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollTop";
 import Spinner from "./components/Spinner";
 import Home from "./pages/Home";
-import Information from "./pages/informations";
+
 import Team from "./pages/Team";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
 			<ScrollToTop />
 			<Routes>
 				<Route path='/' element={<Home />} />
-				<Route path='informations' element={<Information />} />
+				
 				<Route path='team' element={<Team />} />
 				<Route path='*' element={<Navigate replace to='/' />} />
 			</Routes>
