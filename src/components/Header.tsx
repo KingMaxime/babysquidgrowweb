@@ -64,13 +64,13 @@ function Header() {
 							className='py-5 font-qanelas px-3 text-xl font-bold cursor-pointer text-red-500'>
 							Chart
 						</a>
-						{/*<Link
+						<Link
 							to='/informations'
 							className={`py-5 px-3 text-xl font-bold font-qanelas ${
-								pathname === "/stake" ? "text-teal-300" : "text-red-500"
+								pathname === "/informations" ? "text-teal-300" : "text-red-500"
 							}`}>
 							Information
-						</Link>*/}
+						</Link>
 						{/* {pathname === '/stake' ? <button className="block w-full max-w-xs mx-auto bg-gradient-to-r from-purple-600 to-pink-600  text-white rounded-full px-10 py-3 font-qanelas font-semibold">Connet Wallet</button> : null} */}
 					</div>
 					<div className='md:hidden flex items-center'>
@@ -134,9 +134,9 @@ function Header() {
 						Chart
 					</a>
 					<Link
-						to='/stake'
+						to='/informations'
 						className={`block py-2 px-0 md:px-4 text-xl font-bold font-qanelas ${
-							pathname === "/stake" ? "text-teal-300" : "text-pink-500"
+							pathname === "/informations" ? "text-teal-300" : "text-pink-500"
 						}`}>
 						Stake
 					</Link>

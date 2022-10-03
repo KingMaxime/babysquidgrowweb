@@ -1,7 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Forward from "../assets/images/forward.jpeg";
-import Slots from "../assets/images/slots.jpeg";
+
 
 function Information() {
 	return (
@@ -23,4 +22,4 @@ function Information() {
 	);
 }
 
-export default Stake;
+export default Informations;

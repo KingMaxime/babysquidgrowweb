@@ -167,7 +167,7 @@ function Home() {
 									• 2% Team
 								</p>
 								<p className='text-white text-sm md:text-base font-bold'>
-									• 2% Liquidity Pool (automatic)
+									• 2% Liquidity Pool 
 								</p>
 								
 							</div>
