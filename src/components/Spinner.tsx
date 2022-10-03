@@ -1,5 +1,5 @@
 import React from "react";
-import SpinnerJpeg from "../assets/images/spinner.jpeg";
+import SpinnerJpeg from "../assets/images/spinner.png";
 
 function Spinner() {
 	return (
