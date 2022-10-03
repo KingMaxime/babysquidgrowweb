@@ -7,7 +7,7 @@ function Footer() {
 				<div className='md:flex md:justify-between'>
 					<div className='mb-6 md:mb-0'>
 						<Link to='/' className='flex items-center'>
-							<span className='self-center text-4xl font-semibold whitespace-nowrap text-white font-squids'>
+							<span className='self-center text-4xl font-semibold whitespace-wrap text-white font-squids'>
 								The Real Coin Casino
 							</span>
 						</Link>

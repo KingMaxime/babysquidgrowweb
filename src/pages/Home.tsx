@@ -78,7 +78,7 @@ function Home() {
 								</p>
 								<div className='relative flex flex-col sm:flex-row sm:space-x-4'>
 									<a
-										href='https://pancakeswap.finance/swap?outputCurrency=0x03077a5893ba855bfe517a6995f31f3a801066e6'
+										href='https://pancakeswap.finance/swap?outputCurrency=0x434ef13d84e5b3f4c89dd6c0c846d5151232c67a'
 										target='_blank'
 										rel='noopener noreferrer'
 										className='flex items-center justify-center w-full px-6 py-4 mb-3 text-white bg-gradient-to-r from-yellow-600 to-red-600 sm:mb-0 sm:w-auto text-lg font-bold rounded-full md:w-56 shadow-2xl font-qanelas'>
