@@ -8,7 +8,7 @@ function Footer() {
 					<div className='mb-6 md:mb-0'>
 						<Link to='/' className='flex items-center'>
 							<span className='self-center text-4xl font-semibold whitespace-nowrap text-white font-squids'>
-								Baby SquidGrow
+								The Real Coin Casino
 							</span>
 						</Link>
 					</div>
@@ -27,9 +27,9 @@ function Footer() {
 								</li>
 								<li>
 									<Link
-										to='/stake'
+										to='/informations'
 										className='text-xl font-semibold hover:underline hover:text-white font-qanelas'>
-										Stake
+										Information
 									</Link>
 								</li>
 							</ul>
@@ -64,7 +64,7 @@ function Footer() {
 				<hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
 				<div className='flex items-center justify-between'>
 					<span className='text-lg text-gray-600 sm:text-center font-semibold hover:text-white font-squids'>
-						Baby SquidGrow
+						The Real Coin Casino
 					</span>
 					<div className='flex md:mt-4 space-x-6 sm:justify-center sm:mt-0'>
 						<a

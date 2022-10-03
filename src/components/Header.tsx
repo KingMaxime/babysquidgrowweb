@@ -22,9 +22,9 @@ function Header() {
 						</Scroll>
 					</div>
 					<div className='hidden md:flex items-center space-x-1 nav-item'>
-						{pathname === "/stake" ? (
+						{pathname === "/informations" ? (
 							<Link
-								to='/'
+								to='./'
 								className='py-5 px-3 text-xl font-bold font-qanelas text-teal-300'>
 								Home
 							</Link>
@@ -35,7 +35,7 @@ function Header() {
 								smooth={true}
 								offset={-100}
 								duration={100}
-								className='py-5 font-qanelas px-3 text-xl font-bold cursor-pointer text-pink-500'>
+								className='py-5 font-qanelas px-3 text-xl font-bold cursor-pointer text-red-500'>
 								Home
 							</Scroll>
 						)}
@@ -45,32 +45,32 @@ function Header() {
 							smooth={true}
 							offset={-100}
 							duration={100}
-							className='py-5 font-qanelas px-3 text-xl font-bold cursor-pointer text-pink-500'>
+							className='py-5 font-qanelas px-3 text-xl font-bold cursor-pointer text-red-500'>
 							Tokenomics
 						</Scroll>
 						<Scroll
-							to='roadmap'
+							to='team'
 							spy={true}
 							smooth={true}
 							offset={-100}
 							duration={100}
-							className='py-5 font-qanelas px-3 text-xl font-bold cursor-pointer text-pink-500'>
-							Roadmap
+							className='py-5 font-qanelas px-3 text-xl font-bold cursor-pointer text-red-500'>
+							Team
 						</Scroll>
 						<a
-							href='https://poocoin.app/tokens/0x03077a5893ba855bfe517a6995f31f3a801066e6'
+							href='https://poocoin.app/tokens/0x434ef13d84e5b3f4c89dd6c0c846d5151232c67a'
 							target='_blank'
 							rel='noopener noreferrer'
-							className='py-5 font-qanelas px-3 text-xl font-bold cursor-pointer text-pink-500'>
+							className='py-5 font-qanelas px-3 text-xl font-bold cursor-pointer text-red-500'>
 							Chart
 						</a>
-						<Link
-							to='/stake'
+						{/*<Link
+							to='/informations'
 							className={`py-5 px-3 text-xl font-bold font-qanelas ${
-								pathname === "/stake" ? "text-teal-300" : "text-pink-500"
+								pathname === "/stake" ? "text-teal-300" : "text-red-500"
 							}`}>
-							Stake
-						</Link>
+							Information
+						</Link>*/}
 						{/* {pathname === '/stake' ? <button className="block w-full max-w-xs mx-auto bg-gradient-to-r from-purple-600 to-pink-600  text-white rounded-full px-10 py-3 font-qanelas font-semibold">Connet Wallet</button> : null} */}
 					</div>
 					<div className='md:hidden flex items-center'>
@@ -118,13 +118,13 @@ function Header() {
 						Tokenomics
 					</Scroll>
 					<Scroll
-						to='roadmap'
+						to='team'
 						spy={true}
 						smooth={true}
 						offset={-100}
 						duration={100}
 						className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-pink-500 font-qanelas'>
-						Roadmap
+						Team
 					</Scroll>
 					<a
 						href='https://poocoin.app/tokens/0x03077a5893ba855bfe517a6995f31f3a801066e6'
