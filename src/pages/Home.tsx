@@ -142,7 +142,7 @@ function Home() {
 						data-aos='flip-right'
 						data-aos-duration='1500'>
 						<div className='w-sm'>
-							<div className='mt-4 text-teal-300 font-qanelas'>
+							<div className='mt-4 text-yellow-600 font-qanelas'>
 								<h1 className='text-xl font-bold'>Taxes</h1>
 								<p className='text-white text-sm md:text-base font-bold'>
 									🟩 Buy 6 %
