@@ -63,7 +63,7 @@ function Home() {
 
 			<section
 				className='md:py-36'
-				id='about'
+				id='home'
 				data-aos='fade-down'
 				data-aos-duration='1500'>
 				<div className='container max-w-7xl items-center px-8 mx-auto xl:px-5'>
@@ -74,7 +74,11 @@ function Home() {
 									The Real Coin Casino
 								</h1>
 								<p className='mx-auto text-sm text-white sm:max-w-md lg:text-xl font-semibold md:max-w-3xl font-qanelas'>
-								Nowadays investors jump from project to project and doesn't even care about the utility or it's true potential. In, take profits and out. Instead of lying and creating fake websites, fake utilities etc. we create contracts only instead and launch them for the community to make safe x's.
+									Nowadays investors jump from project to project and doesn't
+									even care about the utility or it's true potential. In, take
+									profits and out. Instead of lying and creating fake websites,
+									fake utilities etc. we create contracts only instead and
+									launch them for the community to make safe x's.
 								</p>
 								<div className='relative flex flex-col sm:flex-row sm:space-x-4'>
 									<a
@@ -91,7 +95,6 @@ function Home() {
 										className='flex items-center justify-center w-full px-6 py-4 mb-3 text-white bg-gradient-to-r from-yellow-600 to-red-600 sm:mb-0 sm:w-auto text-lg font-bold rounded-full md:w-56 shadow-2xl font-qanelas'>
 										Join our Community
 									</a>
-									
 								</div>
 							</div>
 						</div>
@@ -136,7 +139,7 @@ function Home() {
 							</div>
 						</div>
 					</div>
-					
+
 					<div
 						className='mt-16 py-4 px-4 w-80 md:w-96 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'
 						data-aos='flip-right'
@@ -154,7 +157,7 @@ function Home() {
 									• 2% Team
 								</p>
 								<p className='text-white text-sm md:text-base font-bold'>
-									• 2% Liquidity Pool 
+									• 2% Liquidity Pool
 								</p>
 
 								<p className='text-white text-sm md:text-base font-bold mt-4'>
@@ -167,9 +170,68 @@ function Home() {
 									• 2% Team
 								</p>
 								<p className='text-white text-sm md:text-base font-bold'>
-									• 2% Liquidity Pool 
+									• 2% Liquidity Pool
 								</p>
-								
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section className='py-10 md:py-20' id='about'>
+				<h1 className='mt-8 text-center text-4xl md:text-5xl text-yellow-600 font-bold font-squids'>
+					About And Services
+				</h1>
+				<div className='md:flex md:justify-center md:space-x-8 md:px-14'>
+					<div
+						className='mt-16 py-4 px-4 w-80 md:w-96 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'
+						data-aos='fade-right'
+						data-aos-offset='300'
+						data-aos-easing='ease-in-sine'>
+						<div className='w-sm'>
+							<div className='mt-4 text-yellow-600 font-qanelas'>
+								<h1 className='text-xl font-bold text-center'>About Us</h1>
+								<br />
+								<p className='text-white text-sm md:text-base font-bold'>
+									We are inspired by the fact that todays investors just want to
+									grab quick x's instead of a long term hold.
+								</p>
+								<br />
+								<p className='text-white text-sm md:text-base font-bold'>
+									At The Real Coin Casino we give these investors the
+									opportunity to do both.
+								</p>
+								<br />
+								<p className='text-white text-sm md:text-base font-bold'>
+									They are able to trade and Gamble with our gambling contracts
+									and invest in something with a long term benefit per our main
+									token RCC.
+								</p>
+								<br />
+								<p className='text-white text-sm md:text-base font-bold'>
+									We launch Gambling contracts that will burn or give RCC in
+									reflections which will push the RCC chart up. Check out the
+									RCC and Gambling contracts tokenomics for more info.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div
+						className='mt-16 py-4 px-4 w-80 md:w-96 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'
+						data-aos='fade-left'
+						data-aos-offset='400'
+						data-aos-easing='ease-in-sine'>
+						<div className='w-sm'>
+							<div className='mt-4 text-yellow-600 font-qanelas'>
+								<h1 className='text-xl font-bold text-center'>Services</h1>
+								<br />
+								<ol className='text-white text-sm md:text-base font-bold list-disc list-inside'>
+									<li className='pb-4'>Building BNB-Bep 20 Smart Contracts.</li>
+									<li className='pb-4'>Website development</li>
+									<li className='pb-4'> Dapp creation </li>
+									<li className='pb-4'>Telegram bot management and coding</li>
+									<li>Promotion at EliteWhales</li>
+								</ol>
 							</div>
 						</div>
 					</div>
@@ -179,41 +241,35 @@ function Home() {
 			<section
 				className='py-10 md:py-20'
 				id='team'
-				data-aos='zoom-in-up'
+				data-aos='flip-up'
 				data-aos-duration='1500'>
 				<h1 className='mt-8 text-center text-5xl text-yellow-600 font-bold font-squids'>
 					Team
-					
-								<p className='text-white text-sm md:text-base font-bold'>
-								Our team consists of a small core team of 4, the rest is fully community driven. 
-								</p>
+					<p className='text-white text-sm md:text-base font-bold'>
+						Our team consists of a small core team of 4, the rest is fully
+						community driven.
+					</p>
 				</h1>
 				<div className='md:flex md:justify-center md:space-x-8 md:px-14'>
 					<div className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'>
 						<div className='w-sm font-qanelas'>
 							<img className='w-full rounded-md' src={Squid1} alt='Squid' />
-							<div className='mt-4 text-red-600'>
-								
-								
-							</div>
+							<div className='mt-4 text-red-600'></div>
 						</div>
 					</div>
 					<div className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'>
 						<div className='w-sm font-qanelas'>
 							<img className='w-full rounded-md' src={Squid2} alt='Squid' />
-							
 						</div>
 					</div>
 					<div className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'>
 						<div className='w-sm font-qanelas'>
 							<img className='w-full rounded-md' src={Squid3} alt='Squid' />
-							
 						</div>
 					</div>
 					<div className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'>
 						<div className='w-sm font-qanelas'>
 							<img className='w-full rounded-md' src={Squid4} alt='Squid' />
-							
 						</div>
 					</div>
 				</div>
