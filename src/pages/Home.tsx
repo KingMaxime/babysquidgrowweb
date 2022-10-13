@@ -260,6 +260,7 @@ function Home() {
 					<div
 						className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'
 						data-aos='fade-up'
+						data-aos-offset='400'
 						data-aos-easing='linear'
 						data-aos-duration='3000'>
 						<div className='w-sm font-qanelas'>
@@ -269,6 +270,7 @@ function Home() {
 					<div
 						className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'
 						data-aos='fade-down'
+						data-aos-offset='500'
 						data-aos-easing='linear'
 						data-aos-duration='1500'>
 						<div className='w-sm font-qanelas'>
@@ -278,7 +280,7 @@ function Home() {
 					<div
 						className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'
 						data-aos='fade-left'
-						data-aos-offset='300'
+						data-aos-offset='600'
 						data-aos-duration='500'>
 						<div className='w-sm font-qanelas'>
 							<img className='w-full rounded-md' src={Squid4} alt='Squid' />

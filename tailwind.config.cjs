@@ -8,6 +8,9 @@ module.exports = {
 				squids: ["Squids", "sans-serif"],
 				qanelas: ["Qanelas", "sans-serif"],
 			},
+			animation: {
+				shake: "shake 0.5s ease-in-out 5",
+			},
 		},
 	},
 	plugins: [],

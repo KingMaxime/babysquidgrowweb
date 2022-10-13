@@ -12,13 +12,17 @@ function Header() {
 				<div className='flex justify-between'>
 					<div className='flex space-x-4'>
 						<Scroll
-							to='about'
+							to='home'
 							spy={true}
 							smooth={true}
 							offset={-100}
 							duration={100}
 							className='flex items-center py-5 md:py-0 text-3xl font-bold cursor-pointer'>
-							<img src={Logo} alt='Logo' className='w-60 md:w-full' />
+							<img
+								src={Logo}
+								alt='Logo'
+								className='w-60 md:w-full animate-shake'
+							/>
 						</Scroll>
 					</div>
 					<div className='hidden md:flex items-center space-x-1 nav-item'>
@@ -94,7 +98,8 @@ function Header() {
 					</div>
 				</div>
 				<div className={`md:hidden nav-item ${open ? "" : "hidden"}`}>
-					{pathname === "/" ? (
+					{/* {console.log(pathname)} */}
+					{pathname === "/informations" ? (
 						<Link
 							to='./'
 							className='block py-2 px-0 md:px-4 text-xl font-bold text-red-600 font-qanelas'>
@@ -102,7 +107,7 @@ function Header() {
 						</Link>
 					) : (
 						<Scroll
-							to='about'
+							to='home'
 							spy={true}
 							smooth={true}
 							offset={-100}
@@ -119,6 +124,15 @@ function Header() {
 						duration={100}
 						className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-red-600 font-qanelas'>
 						Tokenomics
+					</Scroll>
+					<Scroll
+						to='about'
+						spy={true}
+						smooth={true}
+						offset={-100}
+						duration={100}
+						className='block py-2 px-0 md:px-4 text-xl font-bold cursor-pointer text-red-600 font-qanelas'>
+						About & Services
 					</Scroll>
 					<Scroll
 						to='team'
