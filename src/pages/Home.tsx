@@ -238,11 +238,7 @@ function Home() {
 				</div>
 			</section>
 
-			<section
-				className='py-10 md:py-20'
-				id='team'
-				data-aos='flip-up'
-				data-aos-duration='1500'>
+			<section className='py-10 md:py-20' id='team'>
 				<h1 className='mt-8 text-center text-5xl text-yellow-600 font-bold font-squids'>
 					Team
 					<p className='text-white text-sm md:text-base font-bold'>
@@ -251,23 +247,39 @@ function Home() {
 					</p>
 				</h1>
 				<div className='md:flex md:justify-center md:space-x-8 md:px-14'>
-					<div className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'>
+					<div
+						className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'
+						data-aos='fade-right'
+						data-aos-offset='300'
+						data-aos-easing='ease-in-sine'>
 						<div className='w-sm font-qanelas'>
 							<img className='w-full rounded-md' src={Squid1} alt='Squid' />
 							<div className='mt-4 text-red-600'></div>
 						</div>
 					</div>
-					<div className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'>
+					<div
+						className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'
+						data-aos='fade-up'
+						data-aos-easing='linear'
+						data-aos-duration='3000'>
 						<div className='w-sm font-qanelas'>
 							<img className='w-full rounded-md' src={Squid2} alt='Squid' />
 						</div>
 					</div>
-					<div className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'>
+					<div
+						className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'
+						data-aos='fade-down'
+						data-aos-easing='linear'
+						data-aos-duration='1500'>
 						<div className='w-sm font-qanelas'>
 							<img className='w-full rounded-md' src={Squid3} alt='Squid' />
 						</div>
 					</div>
-					<div className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'>
+					<div
+						className='mt-16 py-4 px-4 w-80 border-2 border-neutral-400 rounded-xl shadow-lg mx-auto md:mx-0'
+						data-aos='fade-left'
+						data-aos-offset='300'
+						data-aos-duration='500'>
 						<div className='w-sm font-qanelas'>
 							<img className='w-full rounded-md' src={Squid4} alt='Squid' />
 						</div>
