@@ -21,7 +21,7 @@ function Header() {
 							<img
 								src={Logo}
 								alt='Logo'
-								className='w-60 md:w-full animate-shake'
+								className='w-60 md:w-full animate-shake hover:animate-shake'
 							/>
 						</Scroll>
 					</div>

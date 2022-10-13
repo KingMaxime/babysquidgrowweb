@@ -9,7 +9,7 @@ module.exports = {
 				qanelas: ["Qanelas", "sans-serif"],
 			},
 			animation: {
-				shake: "shake 0.5s ease-in-out 5",
+				shake: "shake 0.5s ease-in-out 10",
 			},
 		},
 	},
